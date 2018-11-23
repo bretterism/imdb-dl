@@ -1,0 +1,1249 @@
+INFO:root:2018-05-28 13:33:00 -- Downloading name.basics.tsv.gz: 161.35 MB
+
+INFO:root:2018-05-28 13:33:21 -- File finished: name.basics.tsv.gz 161.35MB in 21.49s
+
+INFO:root:2018-05-28 13:33:22 -- Downloading title.akas.tsv.gz: 50.36 MB
+
+INFO:root:2018-05-28 13:33:30 -- File finished: title.akas.tsv.gz 50.36MB in 8.16s
+
+INFO:root:2018-05-28 13:33:30 -- Downloading title.basics.tsv.gz: 86.74 MB
+
+INFO:root:2018-05-28 13:33:40 -- File finished: title.basics.tsv.gz 86.74MB in 10.32s
+
+INFO:root:2018-05-28 13:33:40 -- Downloading title.crew.tsv.gz: 35.43 MB
+
+INFO:root:2018-05-28 13:33:46 -- File finished: title.crew.tsv.gz 35.43MB in 6.17s
+
+INFO:root:2018-05-28 13:33:47 -- Downloading title.episode.tsv.gz: 17.65 MB
+
+INFO:root:2018-05-28 13:33:50 -- File finished: title.episode.tsv.gz 17.65MB in 3.83s
+
+INFO:root:2018-05-28 13:33:50 -- Downloading title.principals.tsv.gz: 237.89 MB
+
+INFO:root:2018-05-28 13:34:21 -- File finished: title.principals.tsv.gz 237.89MB in 30.68s
+
+INFO:root:2018-05-28 13:34:21 -- Downloading title.ratings.tsv.gz: 3.94 MB
+
+INFO:root:2018-05-28 13:34:21 -- File finished: title.ratings.tsv.gz 3.94MB in 0.60s
+
+INFO:root:2018-05-28 13:34:21 -- Extracting title.episode.tsv.gz: 17.65MB
+
+INFO:root:2018-05-28 13:35:12 -- Downloading name.basics.tsv.gz: 161.35 MB
+
+INFO:root:2018-05-28 13:35:32 -- File finished: name.basics.tsv.gz 161.35MB in 19.88s
+
+INFO:root:2018-05-28 13:35:33 -- Downloading title.akas.tsv.gz: 50.36 MB
+
+INFO:root:2018-05-28 13:35:40 -- File finished: title.akas.tsv.gz 50.36MB in 7.35s
+
+INFO:root:2018-05-28 13:35:40 -- Downloading title.basics.tsv.gz: 86.74 MB
+
+INFO:root:2018-05-28 13:35:51 -- File finished: title.basics.tsv.gz 86.74MB in 10.81s
+
+INFO:root:2018-05-28 13:35:51 -- Downloading title.crew.tsv.gz: 35.43 MB
+
+INFO:root:2018-05-28 13:35:57 -- File finished: title.crew.tsv.gz 35.43MB in 6.22s
+
+INFO:root:2018-05-28 13:35:58 -- Downloading title.episode.tsv.gz: 17.65 MB
+
+INFO:root:2018-05-28 13:36:00 -- File finished: title.episode.tsv.gz 17.65MB in 2.92s
+
+INFO:root:2018-05-28 13:36:01 -- Downloading title.principals.tsv.gz: 237.89 MB
+
+INFO:root:2018-05-28 13:36:29 -- File finished: title.principals.tsv.gz 237.89MB in 28.82s
+
+INFO:root:2018-05-28 13:36:31 -- Downloading title.ratings.tsv.gz: 3.94 MB
+
+INFO:root:2018-05-28 13:36:32 -- File finished: title.ratings.tsv.gz 3.94MB in 0.58s
+
+INFO:root:2018-05-28 13:36:32 -- Extracting title.episode.tsv.gz: 17.65MB
+
+INFO:root:2018-05-28 13:37:13 -- Downloading name.basics.tsv.gz: 161.35 MB
+
+INFO:root:2018-05-28 13:37:34 -- File finished: name.basics.tsv.gz 161.35MB in 21.11s
+
+INFO:root:2018-05-28 13:37:34 -- Downloading title.akas.tsv.gz: 50.36 MB
+
+INFO:root:2018-05-28 13:37:40 -- File finished: title.akas.tsv.gz 50.36MB in 6.03s
+
+INFO:root:2018-05-28 13:37:40 -- Downloading title.basics.tsv.gz: 86.74 MB
+
+INFO:root:2018-05-28 13:37:52 -- File finished: title.basics.tsv.gz 86.74MB in 11.32s
+
+INFO:root:2018-05-28 13:37:52 -- Downloading title.crew.tsv.gz: 35.43 MB
+
+INFO:root:2018-05-28 13:37:58 -- File finished: title.crew.tsv.gz 35.43MB in 6.50s
+
+INFO:root:2018-05-28 13:37:58 -- Downloading title.episode.tsv.gz: 17.65 MB
+
+INFO:root:2018-05-28 13:38:01 -- File finished: title.episode.tsv.gz 17.65MB in 2.44s
+
+INFO:root:2018-05-28 13:38:01 -- Downloading title.principals.tsv.gz: 237.89 MB
+
+INFO:root:2018-05-28 13:38:29 -- File finished: title.principals.tsv.gz 237.89MB in 28.08s
+
+INFO:root:2018-05-28 13:38:30 -- Downloading title.ratings.tsv.gz: 3.94 MB
+
+INFO:root:2018-05-28 13:38:30 -- File finished: title.ratings.tsv.gz 3.94MB in 0.62s
+
+INFO:root:2018-05-28 13:38:30 -- Extracting title.episode.tsv.gz: 17.65MB
+
+INFO:root:2018-05-28 13:38:31 -- Finished extracting title.episode.tsv.gzArchived file to ../../import/archive
+
+INFO:root:2018-05-28 13:38:31 -- Extracting title.akas.tsv.gz: 50.36MB
+
+INFO:root:2018-05-28 13:38:34 -- Finished extracting title.akas.tsv.gzArchived file to ../../import/archive
+
+INFO:root:2018-05-28 13:38:34 -- Extracting title.ratings.tsv.gz: 3.94MB
+
+INFO:root:2018-05-28 13:38:34 -- Finished extracting title.ratings.tsv.gzArchived file to ../../import/archive
+
+INFO:root:2018-05-28 13:38:34 -- Extracting title.crew.tsv.gz: 35.43MB
+
+INFO:root:2018-05-28 13:38:36 -- Finished extracting title.crew.tsv.gzArchived file to ../../import/archive
+
+INFO:root:2018-05-28 13:38:36 -- Extracting title.basics.tsv.gz: 86.74MB
+
+INFO:root:2018-05-28 13:38:43 -- Finished extracting title.basics.tsv.gzArchived file to ../../import/archive
+
+INFO:root:2018-05-28 13:38:43 -- Extracting name.basics.tsv.gz: 161.35MB
+
+INFO:root:2018-05-28 13:38:54 -- Finished extracting name.basics.tsv.gzArchived file to ../../import/archive
+
+INFO:root:2018-05-28 13:38:54 -- Extracting title.principals.tsv.gz: 237.89MB
+
+INFO:root:2018-05-28 13:39:14 -- Finished extracting title.principals.tsv.gzArchived file to ../../import/archive
+
+ERROR:root:2018-06-09 12:56:18 -- Downloading file name.basics.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheaders'
+
+ERROR:root:2018-06-09 12:56:18 -- Downloading file title.akas.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheaders'
+
+ERROR:root:2018-06-09 12:56:18 -- Downloading file title.basics.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheaders'
+
+ERROR:root:2018-06-09 12:56:19 -- Downloading file title.crew.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheaders'
+
+ERROR:root:2018-06-09 12:56:19 -- Downloading file title.episode.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheaders'
+
+ERROR:root:2018-06-09 12:56:19 -- Downloading file title.principals.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheaders'
+
+ERROR:root:2018-06-09 12:56:19 -- Downloading file title.ratings.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheaders'
+
+ERROR:root:2018-06-09 12:59:10 -- Downloading file name.basics.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheader'
+
+ERROR:root:2018-06-09 12:59:11 -- Downloading file title.akas.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheader'
+
+ERROR:root:2018-06-09 12:59:11 -- Downloading file title.basics.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheader'
+
+ERROR:root:2018-06-09 12:59:11 -- Downloading file title.crew.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheader'
+
+ERROR:root:2018-06-09 12:59:12 -- Downloading file title.episode.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheader'
+
+ERROR:root:2018-06-09 12:59:12 -- Downloading file title.principals.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheader'
+
+ERROR:root:2018-06-09 12:59:12 -- Downloading file title.ratings.tsv.gz failed.
+'HTTPMessage' object has no attribute 'getheader'
+
+INFO:root:2018-06-09 13:00:56 -- Downloading name.basics.tsv.gz: 0.00 MB
+
+ERROR:root:2018-06-09 13:01:03 -- Downloading file name.basics.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+ERROR:root:2018-06-09 13:01:04 -- Downloading file title.akas.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+INFO:root:2018-06-09 13:01:04 -- Downloading title.basics.tsv.gz: 0.00 MB
+
+ERROR:root:2018-06-09 13:01:04 -- Downloading file title.basics.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+ERROR:root:2018-06-09 13:01:04 -- Downloading file title.crew.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+ERROR:root:2018-06-09 13:01:04 -- Downloading file title.episode.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+INFO:root:2018-06-09 13:01:04 -- Downloading title.principals.tsv.gz: 0.00 MB
+
+ERROR:root:2018-06-09 13:01:04 -- Downloading file title.principals.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+INFO:root:2018-06-09 13:01:04 -- Downloading title.ratings.tsv.gz: 0.00 MB
+
+ERROR:root:2018-06-09 13:01:04 -- Downloading file title.ratings.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+INFO:root:2018-06-09 13:02:26 -- Downloading name.basics.tsv.gz: 161.81 MB
+
+ERROR:root:2018-06-09 13:02:28 -- Downloading file name.basics.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+ERROR:root:2018-06-09 13:02:28 -- Downloading file title.akas.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+INFO:root:2018-06-09 13:02:28 -- Downloading title.basics.tsv.gz: 87.17 MB
+
+ERROR:root:2018-06-09 13:02:29 -- Downloading file title.basics.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+ERROR:root:2018-06-09 13:02:29 -- Downloading file title.crew.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+ERROR:root:2018-06-09 13:02:29 -- Downloading file title.episode.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+INFO:root:2018-06-09 13:02:29 -- Downloading title.principals.tsv.gz: 238.91 MB
+
+ERROR:root:2018-06-09 13:02:29 -- Downloading file title.principals.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+INFO:root:2018-06-09 13:02:29 -- Downloading title.ratings.tsv.gz: 3.96 MB
+
+ERROR:root:2018-06-09 13:02:29 -- Downloading file title.ratings.tsv.gz failed.
+Keyboard Interrupt detected. Continuing to next file.
+
+INFO:root:2018-06-09 13:02:50 -- Downloading name.basics.tsv.gz: 161.81 MB
+
+INFO:root:2018-06-09 13:03:13 -- File finished: name.basics.tsv.gz 161.81MB in 23.07s
+
+INFO:root:2018-06-09 13:03:13 -- Downloading title.akas.tsv.gz: 50.44 MB
+
+INFO:root:2018-06-09 13:03:20 -- File finished: title.akas.tsv.gz 50.44MB in 7.37s
+
+INFO:root:2018-06-09 13:03:20 -- Downloading title.basics.tsv.gz: 87.17 MB
+
+INFO:root:2018-06-09 13:03:32 -- File finished: title.basics.tsv.gz 87.17MB in 11.86s
+
+INFO:root:2018-06-09 13:03:33 -- Downloading title.crew.tsv.gz: 35.61 MB
+
+INFO:root:2018-06-09 13:03:39 -- File finished: title.crew.tsv.gz 35.61MB in 6.46s
+
+INFO:root:2018-06-09 13:03:39 -- Downloading title.episode.tsv.gz: 17.76 MB
+
+INFO:root:2018-06-09 13:03:43 -- File finished: title.episode.tsv.gz 17.76MB in 4.18s
+
+INFO:root:2018-06-09 13:03:43 -- Downloading title.principals.tsv.gz: 238.91 MB
+
+INFO:root:2018-06-09 13:04:14 -- File finished: title.principals.tsv.gz 238.91MB in 30.88s
+
+INFO:root:2018-06-09 13:04:14 -- Downloading title.ratings.tsv.gz: 3.96 MB
+
+INFO:root:2018-06-09 13:04:14 -- File finished: title.ratings.tsv.gz 3.96MB in 0.58s
+
+INFO:root:2018-06-09 13:04:14 -- Extracting title.episode.tsv.gz: 17.76MB
+
+INFO:root:2018-06-09 13:04:19 -- Finished extracting title.episode.tsv.gz
+Archived file to ../../import/archive
+
+INFO:root:2018-06-09 13:04:19 -- Extracting title.akas.tsv.gz: 50.44MB
+
+INFO:root:2018-06-09 13:04:21 -- Finished extracting title.akas.tsv.gz
+Archived file to ../../import/archive
+
+INFO:root:2018-06-09 13:04:21 -- Extracting title.ratings.tsv.gz: 3.96MB
+
+INFO:root:2018-06-09 13:04:22 -- Finished extracting title.ratings.tsv.gz
+Archived file to ../../import/archive
+
+INFO:root:2018-06-09 13:04:22 -- Extracting title.crew.tsv.gz: 35.61MB
+
+INFO:root:2018-06-09 13:04:25 -- Finished extracting title.crew.tsv.gz
+Archived file to ../../import/archive
+
+INFO:root:2018-06-09 13:04:25 -- Extracting title.basics.tsv.gz: 87.17MB
+
+INFO:root:2018-06-09 13:04:34 -- Finished extracting title.basics.tsv.gz
+Archived file to ../../import/archive
+
+INFO:root:2018-06-09 13:04:34 -- Extracting name.basics.tsv.gz: 161.81MB
+
+INFO:root:2018-06-09 13:04:46 -- Finished extracting name.basics.tsv.gz
+Archived file to ../../import/archive
+
+INFO:root:2018-06-09 13:04:46 -- Extracting title.principals.tsv.gz: 238.91MB
+
+INFO:root:2018-06-09 13:05:09 -- Finished extracting title.principals.tsv.gz
+Archived file to ../../import/archive
+
+ERROR:root:2018-06-09 13:27:53 -- File poop.tsv not found in ../../import/extracted
+
+ERROR:root:2018-06-09 15:22:38 -- Scrubbing file title.principals.tsv failed.
+name 'df' is not defined
+
+ERROR:root:2018-06-09 15:22:38 -- Scrubbing file scrubbed.title.episode.tsv failed.
+name 'df' is not defined
+
+ERROR:root:2018-06-09 15:22:38 -- Scrubbing file title.crew.tsv failed.
+name 'df' is not defined
+
+ERROR:root:2018-06-09 15:22:38 -- Scrubbing file name.basics.tsv failed.
+name 'df' is not defined
+
+ERROR:root:2018-06-09 15:22:47 -- Scrubbing file title.ratings.tsv failed.
+name 'df' is not defined
+
+ERROR:root:2018-06-09 15:22:56 -- Scrubbing file title.basics.tsv failed.
+isin() takes 2 positional arguments but 3 were given
+
+ERROR:root:2018-06-09 15:24:13 -- Scrubbing file title.principals.tsv failed.
+name 'filepath' is not defined
+
+ERROR:root:2018-06-09 15:24:13 -- Scrubbing file scrubbed.title.episode.tsv failed.
+name 'filepath' is not defined
+
+ERROR:root:2018-06-09 15:24:13 -- Scrubbing file scrubbed.title.akas.tsv failed.
+name 'filepath' is not defined
+
+ERROR:root:2018-06-09 15:24:13 -- Scrubbing file title.crew.tsv failed.
+name 'filepath' is not defined
+
+ERROR:root:2018-06-09 15:24:13 -- Scrubbing file name.basics.tsv failed.
+name 'filepath' is not defined
+
+ERROR:root:2018-06-09 15:24:13 -- Scrubbing file title.ratings.tsv failed.
+name 'filepath' is not defined
+
+ERROR:root:2018-06-09 15:24:46 -- Scrubbing file title.basics.tsv failed.
+isin() takes 2 positional arguments but 3 were given
+
+INFO:root:2018-06-09 15:53:17 -- Downloading name.basics.tsv.gz: 161.81 MB
+
+INFO:root:2018-06-09 15:53:36 -- File finished: name.basics.tsv.gz 161.81MB in 19.69s
+
+INFO:root:2018-06-09 15:53:36 -- Downloading title.basics.tsv.gz: 87.17 MB
+
+INFO:root:2018-06-09 15:53:47 -- File finished: title.basics.tsv.gz 87.17MB in 10.59s
+
+INFO:root:2018-06-09 15:53:47 -- Downloading title.episode.tsv.gz: 17.76 MB
+
+INFO:root:2018-06-09 15:53:49 -- File finished: title.episode.tsv.gz 17.76MB in 2.34s
+
+INFO:root:2018-06-09 15:53:49 -- Downloading title.ratings.tsv.gz: 3.96 MB
+
+INFO:root:2018-06-09 15:53:50 -- File finished: title.ratings.tsv.gz 3.96MB in 0.60s
+
+INFO:root:2018-06-09 15:53:50 -- Extracting title.episode.tsv.gz: 17.76MB
+
+INFO:root:2018-06-09 15:53:51 -- Finished extracting title.episode.tsv.gz
+Archived file to ../../import/archive/20180609
+
+INFO:root:2018-06-09 15:53:51 -- Extracting title.ratings.tsv.gz: 3.96MB
+
+INFO:root:2018-06-09 15:53:51 -- Finished extracting title.ratings.tsv.gz
+Archived file to ../../import/archive/20180609
+
+INFO:root:2018-06-09 15:53:51 -- Extracting title.basics.tsv.gz: 87.17MB
+
+INFO:root:2018-06-09 15:53:55 -- Finished extracting title.basics.tsv.gz
+Archived file to ../../import/archive/20180609
+
+INFO:root:2018-06-09 15:53:55 -- Extracting name.basics.tsv.gz: 161.81MB
+
+INFO:root:2018-06-09 15:53:59 -- Finished extracting name.basics.tsv.gz
+Archived file to ../../import/archive/20180609
+
+INFO:root:2018-06-09 16:03:24 -- Downloading title.basics.tsv.gz: 87.17 MB
+
+INFO:root:2018-06-09 16:03:35 -- File finished: title.basics.tsv.gz 87.17MB in 10.92s
+
+INFO:root:2018-06-09 16:03:35 -- Downloading title.episode.tsv.gz: 17.76 MB
+
+INFO:root:2018-06-09 16:03:37 -- File finished: title.episode.tsv.gz 17.76MB in 2.62s
+
+INFO:root:2018-06-09 16:03:37 -- Downloading title.ratings.tsv.gz: 3.96 MB
+
+INFO:root:2018-06-09 16:03:38 -- File finished: title.ratings.tsv.gz 3.96MB in 0.61s
+
+INFO:root:2018-06-09 16:03:38 -- Extracting title.episode.tsv.gz: 17.76MB
+
+INFO:root:2018-06-09 16:03:38 -- Finished extracting title.episode.tsv.gz
+Archived file to ../../import/20180609
+
+INFO:root:2018-06-09 16:03:38 -- Extracting title.ratings.tsv.gz: 3.96MB
+
+INFO:root:2018-06-09 16:03:39 -- Finished extracting title.ratings.tsv.gz
+Archived file to ../../import/20180609
+
+INFO:root:2018-06-09 16:03:39 -- Extracting title.basics.tsv.gz: 87.17MB
+
+INFO:root:2018-06-09 16:03:42 -- Finished extracting title.basics.tsv.gz
+Archived file to ../../import/20180609
+
+INFO:root:2018-06-09 16:11:37 -- Downloading title.basics.tsv.gz: 87.17 MB
+
+INFO:root:2018-06-09 16:11:48 -- File finished: title.basics.tsv.gz 87.17MB in 10.41s
+
+INFO:root:2018-06-09 16:11:48 -- Downloading title.episode.tsv.gz: 17.76 MB
+
+INFO:root:2018-06-09 16:11:50 -- File finished: title.episode.tsv.gz 17.76MB in 2.22s
+
+INFO:root:2018-06-09 16:11:50 -- Downloading title.ratings.tsv.gz: 3.96 MB
+
+INFO:root:2018-06-09 16:11:51 -- File finished: title.ratings.tsv.gz 3.96MB in 0.57s
+
+INFO:root:2018-06-09 16:11:51 -- Extracting title.episode.tsv.gz: 17.76MB
+
+INFO:root:2018-06-09 16:11:51 -- Finished extracting title.episode.tsv.gz
+
+
+INFO:root:2018-06-09 16:11:51 -- Extracting title.ratings.tsv.gz: 3.96MB
+
+INFO:root:2018-06-09 16:11:51 -- Finished extracting title.ratings.tsv.gz
+
+
+INFO:root:2018-06-09 16:11:51 -- Extracting title.basics.tsv.gz: 87.17MB
+
+INFO:root:2018-06-09 16:11:55 -- Finished extracting title.basics.tsv.gz
+
+
+INFO:root:2018-06-09 16:16:46 -- Downloading title.basics.tsv.gz: 87.17 MB
+
+INFO:root:2018-06-09 16:16:57 -- File finished: title.basics.tsv.gz 87.17MB in 11.07s
+
+INFO:root:2018-06-09 16:16:57 -- Downloading title.episode.tsv.gz: 17.76 MB
+
+INFO:root:2018-06-09 16:17:00 -- File finished: title.episode.tsv.gz 17.76MB in 2.61s
+
+INFO:root:2018-06-09 16:17:00 -- Downloading title.ratings.tsv.gz: 3.96 MB
+
+INFO:root:2018-06-09 16:17:01 -- File finished: title.ratings.tsv.gz 3.96MB in 1.01s
+
+INFO:root:2018-06-09 16:17:01 -- Extracting title.episode.tsv.gz: 17.76MB
+
+INFO:root:2018-06-09 16:17:01 -- Finished extracting title.episode.tsv.gz
+
+
+INFO:root:2018-06-09 16:17:01 -- Extracting title.ratings.tsv.gz: 3.96MB
+
+INFO:root:2018-06-09 16:17:02 -- Finished extracting title.ratings.tsv.gz
+
+
+INFO:root:2018-06-09 16:17:02 -- Extracting title.basics.tsv.gz: 87.17MB
+
+INFO:root:2018-06-09 16:17:05 -- Finished extracting title.basics.tsv.gz
+
+
+INFO:root:2018-06-09 21:32:12 -- Downloading title.basics.tsv.gz: 87.20 MB
+
+INFO:root:2018-06-09 21:32:25 -- File finished: title.basics.tsv.gz 87.20MB in 14.12s
+
+INFO:root:2018-06-09 21:32:26 -- Downloading title.episode.tsv.gz: 17.76 MB
+
+INFO:root:2018-06-09 21:32:30 -- File finished: title.episode.tsv.gz 17.76MB in 4.41s
+
+INFO:root:2018-06-09 21:32:31 -- Downloading title.ratings.tsv.gz: 3.96 MB
+
+INFO:root:2018-06-09 21:32:33 -- File finished: title.ratings.tsv.gz 3.96MB in 2.60s
+
+INFO:root:2018-06-09 21:32:33 -- Extracting title.episode.tsv.gz: 17.76MB
+
+INFO:root:2018-06-09 21:32:33 -- Finished extracting title.episode.tsv.gz
+
+
+INFO:root:2018-06-09 21:32:33 -- File scrubbed.title.episode.tsv not a .gz file. Skipping...
+
+
+INFO:root:2018-06-09 21:32:33 -- File scrubbed.title.basics.tsv not a .gz file. Skipping...
+
+
+INFO:root:2018-06-09 21:32:33 -- Extracting title.ratings.tsv.gz: 3.96MB
+
+INFO:root:2018-06-09 21:32:34 -- Finished extracting title.ratings.tsv.gz
+
+
+INFO:root:2018-06-09 21:32:34 -- File title.episode.tsv not a .gz file. Skipping...
+
+
+INFO:root:2018-06-09 21:32:34 -- File title.ratings.tsv not a .gz file. Skipping...
+
+
+INFO:root:2018-06-09 21:32:34 -- Extracting title.basics.tsv.gz: 87.20MB
+
+INFO:root:2018-06-09 21:32:40 -- Finished extracting title.basics.tsv.gz
+
+
+INFO:root:2018-06-09 21:32:40 -- File scrubbed.title.ratings.tsv not a .gz file. Skipping...
+
+
+INFO:root:2018-06-09 21:32:40 -- File title.basics.tsv not a .gz file. Skipping...
+
+
+ERROR:root:2018-06-09 21:34:08 -- File title.basics.tsv not found in ../../import/extracted
+
+INFO:root:2018-06-14 12:04:36 -- Downloading title.basics.tsv.gz: 87.38 MB
+
+INFO:root:2018-06-14 12:04:46 -- File finished: title.basics.tsv.gz 87.38MB in 10.43s
+
+INFO:root:2018-06-14 12:04:47 -- Downloading title.episode.tsv.gz: 17.81 MB
+
+INFO:root:2018-06-14 12:04:50 -- File finished: title.episode.tsv.gz 17.81MB in 3.96s
+
+INFO:root:2018-06-14 12:04:50 -- Downloading title.ratings.tsv.gz: 3.97 MB
+
+INFO:root:2018-06-14 12:04:50 -- File finished: title.ratings.tsv.gz 3.97MB in 0.59s
+
+INFO:root:2018-06-14 12:04:50 -- Extracting title.episode.tsv.gz: 17.81MB
+
+INFO:root:2018-06-14 12:04:51 -- Finished extracting title.episode.tsv.gz
+
+
+INFO:root:2018-06-14 12:04:51 -- Extracting title.ratings.tsv.gz: 3.97MB
+
+INFO:root:2018-06-14 12:04:51 -- Finished extracting title.ratings.tsv.gz
+
+
+INFO:root:2018-06-14 12:04:51 -- Extracting title.basics.tsv.gz: 87.38MB
+
+INFO:root:2018-06-14 12:04:54 -- Finished extracting title.basics.tsv.gz
+
+
+INFO:root:2018-06-15 13:04:29 -- Downloading title.basics.tsv.gz: 87.38 MB
+
+INFO:root:2018-06-15 13:04:41 -- File finished: title.basics.tsv.gz 87.38MB in 12.22s
+
+INFO:root:2018-06-15 13:04:41 -- Downloading title.episode.tsv.gz: 17.82 MB
+
+INFO:root:2018-06-15 13:04:44 -- File finished: title.episode.tsv.gz 17.82MB in 3.79s
+
+INFO:root:2018-06-15 13:04:44 -- Downloading title.ratings.tsv.gz: 3.97 MB
+
+INFO:root:2018-06-15 13:04:45 -- File finished: title.ratings.tsv.gz 3.97MB in 0.58s
+
+INFO:root:2018-06-15 13:04:45 -- Extracting title.episode.tsv.gz: 17.82MB
+
+INFO:root:2018-06-15 13:04:46 -- Finished extracting title.episode.tsv.gz
+
+
+INFO:root:2018-06-15 13:04:46 -- Extracting title.ratings.tsv.gz: 3.97MB
+
+INFO:root:2018-06-15 13:04:46 -- Finished extracting title.ratings.tsv.gz
+
+
+INFO:root:2018-06-15 13:04:46 -- Extracting title.basics.tsv.gz: 87.38MB
+
+INFO:root:2018-06-15 13:04:48 -- Finished extracting title.basics.tsv.gz
+
+
+ERROR:root:2018-06-15 13:05:07 -- Scrubbing file title.basics.tsv failed.
+'int' object has no attribute 'loc'
+
+ERROR:root:2018-06-15 13:06:43 -- Scrubbing file title.basics.tsv failed.
+'int' object has no attribute 'loc'
+
+ERROR:root:2018-06-15 13:07:22 -- Scrubbing file title.basics.tsv failed.
+'str' object has no attribute 'loc'
+
+INFO:root:2018-06-20 18:08:45 -- Downloading title.basics.tsv.gz: 87.62 MB
+
+INFO:root:2018-06-20 18:08:56 -- File finished: title.basics.tsv.gz 87.62MB in 10.51s
+
+INFO:root:2018-06-20 18:08:56 -- Downloading title.episode.tsv.gz: 17.87 MB
+
+INFO:root:2018-06-20 18:08:58 -- File finished: title.episode.tsv.gz 17.87MB in 2.23s
+
+INFO:root:2018-06-20 18:08:58 -- Downloading title.ratings.tsv.gz: 3.97 MB
+
+INFO:root:2018-06-20 18:08:59 -- File finished: title.ratings.tsv.gz 3.97MB in 0.59s
+
+INFO:root:2018-06-20 18:08:59 -- Extracting title.episode.tsv.gz: 17.87MB
+
+INFO:root:2018-06-20 18:08:59 -- Finished extracting title.episode.tsv.gz
+
+
+INFO:root:2018-06-20 18:08:59 -- File 20180615 not a .gz file. Skipping...
+
+
+INFO:root:2018-06-20 18:08:59 -- File 20180614 not a .gz file. Skipping...
+
+
+INFO:root:2018-06-20 18:08:59 -- Extracting title.ratings.tsv.gz: 3.97MB
+
+INFO:root:2018-06-20 18:08:59 -- Finished extracting title.ratings.tsv.gz
+
+
+INFO:root:2018-06-20 18:08:59 -- File 20180609 not a .gz file. Skipping...
+
+
+INFO:root:2018-06-20 18:08:59 -- Extracting title.basics.tsv.gz: 87.62MB
+
+INFO:root:2018-06-20 18:09:03 -- Finished extracting title.basics.tsv.gz
+
+
+INFO:root:2018-06-28 12:19:10 -- Downloading title.basics.tsv.gz: 87.93 MB
+
+INFO:root:2018-06-28 12:19:20 -- File finished: title.basics.tsv.gz 87.93MB in 10.55s
+
+INFO:root:2018-06-28 12:19:21 -- Downloading title.episode.tsv.gz: 17.96 MB
+
+INFO:root:2018-06-28 12:19:24 -- File finished: title.episode.tsv.gz 17.96MB in 4.10s
+
+INFO:root:2018-06-28 12:19:24 -- Downloading title.ratings.tsv.gz: 3.98 MB
+
+INFO:root:2018-06-28 12:19:25 -- File finished: title.ratings.tsv.gz 3.98MB in 0.58s
+
+INFO:root:2018-06-28 12:19:25 -- Extracting title.episode.tsv.gz: 17.96MB
+
+INFO:root:2018-06-28 12:19:25 -- Finished extracting title.episode.tsv.gz
+
+
+INFO:root:2018-06-28 12:19:25 -- Extracting title.ratings.tsv.gz: 3.98MB
+
+INFO:root:2018-06-28 12:19:26 -- Finished extracting title.ratings.tsv.gz
+
+
+INFO:root:2018-06-28 12:19:26 -- File 20180620 not a .gz file. Skipping...
+
+
+INFO:root:2018-06-28 12:19:26 -- Extracting title.basics.tsv.gz: 87.93MB
+
+INFO:root:2018-06-28 12:19:34 -- Finished extracting title.basics.tsv.gz
+
+
+INFO:root:2018-06-28 12:19:34 -- File scrubbed.title.ratings.tsv not a .gz file. Skipping...
+
+
+INFO:root:2018-06-28 12:19:34 -- File title.basics.tsv not a .gz file. Skipping...
+
+
+INFO:root:2018-06-28 12:19:34 -- Scrubbing title.episode.tsv.gz
+
+INFO:root:2018-06-28 12:19:34 -- Scrubbing {0} succeeded.
+
+INFO:root:2018-06-28 12:19:34 -- Scrubbing title.ratings.tsv.gz
+
+INFO:root:2018-06-28 12:19:34 -- Scrubbing {0} succeeded.
+
+INFO:root:2018-06-28 12:19:34 -- Scrubbing title.episode.tsv
+
+INFO:root:2018-06-28 12:19:43 -- Scrubbing {0} succeeded.
+
+INFO:root:2018-06-28 12:19:43 -- Scrubbing title.ratings.tsv
+
+INFO:root:2018-06-28 12:19:43 -- Scrubbing {0} succeeded.
+
+INFO:root:2018-06-28 12:19:43 -- Scrubbing title.basics.tsv.gz
+
+INFO:root:2018-06-28 12:19:43 -- Scrubbing {0} succeeded.
+
+INFO:root:2018-06-28 12:19:43 -- Scrubbing scrubbed.title.ratings.tsv
+
+INFO:root:2018-06-28 12:19:43 -- Scrubbing {0} succeeded.
+
+INFO:root:2018-06-28 12:19:43 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-06-28 12:20:10 -- Scrubbing {0} succeeded.
+
+INFO:root:2018-06-28 12:22:01 -- Transforming files.
+
+INFO:root:2018-06-28 12:22:21 -- Transforming files succeeded.
+
+INFO:root:2018-06-28 12:28:09 -- Transforming files.
+
+INFO:root:2018-06-28 12:29:14 -- Transforming files.
+
+INFO:root:2018-06-28 12:29:58 -- Transforming files.
+
+INFO:root:2018-06-28 12:38:50 -- Transforming files.
+
+INFO:root:2018-06-28 12:39:50 -- Transforming files.
+
+INFO:root:2018-06-28 12:40:11 -- Transforming files succeeded.
+
+INFO:root:2018-06-28 12:41:44 -- Transforming files.
+
+INFO:root:2018-06-28 12:43:50 -- Transforming files.
+
+INFO:root:2018-06-28 12:45:04 -- Transforming files.
+
+INFO:root:2018-06-28 12:46:42 -- Transforming files.
+
+INFO:root:2018-06-28 12:47:03 -- Transforming files succeeded.
+
+INFO:root:2018-06-28 14:11:51 -- Scrubbing title.episode.tsv.gz
+
+INFO:root:2018-06-28 14:11:51 -- Scrubbing title.episode.tsv.gz succeeded.
+
+INFO:root:2018-06-28 14:11:51 -- Scrubbing scrubbed.title.episode.tsv
+
+INFO:root:2018-06-28 14:11:51 -- Scrubbing scrubbed.title.episode.tsv succeeded.
+
+INFO:root:2018-06-28 14:11:51 -- Scrubbing scrubbed.title.basics.tsv
+
+INFO:root:2018-06-28 14:11:51 -- Scrubbing scrubbed.title.basics.tsv succeeded.
+
+INFO:root:2018-06-28 14:11:51 -- Scrubbing title.ratings.tsv.gz
+
+INFO:root:2018-06-28 14:11:51 -- Scrubbing title.ratings.tsv.gz succeeded.
+
+INFO:root:2018-06-28 14:11:51 -- Scrubbing title.episode.tsv
+
+ERROR:root:2018-06-28 14:11:53 -- Scrubbing file title.episode.tsv failed.
+bad operand type for unary ~: 'str'
+
+INFO:root:2018-06-28 14:11:53 -- Scrubbing title.ratings.tsv
+
+INFO:root:2018-06-28 14:11:53 -- Scrubbing title.ratings.tsv succeeded.
+
+INFO:root:2018-06-28 14:11:53 -- Scrubbing title.basics.tsv.gz
+
+INFO:root:2018-06-28 14:11:53 -- Scrubbing title.basics.tsv.gz succeeded.
+
+INFO:root:2018-06-28 14:11:53 -- Scrubbing scrubbed.title.ratings.tsv
+
+INFO:root:2018-06-28 14:11:53 -- Scrubbing scrubbed.title.ratings.tsv succeeded.
+
+INFO:root:2018-06-28 14:11:53 -- Scrubbing transformed.episodes.tsv
+
+INFO:root:2018-06-28 14:11:53 -- Scrubbing transformed.episodes.tsv succeeded.
+
+INFO:root:2018-06-28 14:11:53 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-06-28 14:12:23 -- Scrubbing title.basics.tsv succeeded.
+
+INFO:root:2018-06-28 14:12:23 -- Transforming files.
+
+INFO:root:2018-06-28 14:12:44 -- Transforming files succeeded.
+
+INFO:root:2018-06-28 14:13:25 -- Downloading title.basics.tsv.gz: 87.93 MB
+
+INFO:root:2018-06-28 14:13:49 -- File finished: title.basics.tsv.gz 87.93MB in 24.48s
+
+INFO:root:2018-06-28 14:13:50 -- Downloading title.episode.tsv.gz: 17.96 MB
+
+INFO:root:2018-06-28 14:13:53 -- File finished: title.episode.tsv.gz 17.96MB in 3.52s
+
+INFO:root:2018-06-28 14:13:53 -- Downloading title.ratings.tsv.gz: 3.98 MB
+
+INFO:root:2018-06-28 14:13:54 -- File finished: title.ratings.tsv.gz 3.98MB in 0.57s
+
+INFO:root:2018-06-28 14:13:54 -- Extracting title.episode.tsv.gz: 17.96MB
+
+INFO:root:2018-06-28 14:13:54 -- Finished extracting title.episode.tsv.gz
+
+INFO:root:2018-06-28 14:13:54 -- File scrubbed.title.episode.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-28 14:13:54 -- File scrubbed.title.basics.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-28 14:13:54 -- Extracting title.ratings.tsv.gz: 3.98MB
+
+INFO:root:2018-06-28 14:13:55 -- Finished extracting title.ratings.tsv.gz
+
+INFO:root:2018-06-28 14:13:55 -- File title.episode.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-28 14:13:55 -- File title.ratings.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-28 14:13:55 -- File 20180620 not a .gz file. Skipping...
+
+INFO:root:2018-06-28 14:13:55 -- Extracting title.basics.tsv.gz: 87.93MB
+
+INFO:root:2018-06-28 14:14:02 -- Finished extracting title.basics.tsv.gz
+
+INFO:root:2018-06-28 14:14:02 -- File scrubbed.title.ratings.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-28 14:14:02 -- File 20180628 not a .gz file. Skipping...
+
+INFO:root:2018-06-28 14:14:02 -- File transformed.episodes.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-28 14:14:02 -- File title.basics.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-28 14:14:02 -- Scrubbing title.episode.tsv.gz
+
+INFO:root:2018-06-28 14:14:02 -- Scrubbing title.episode.tsv.gz succeeded.
+
+INFO:root:2018-06-28 14:14:02 -- Scrubbing scrubbed.title.episode.tsv
+
+INFO:root:2018-06-28 14:14:02 -- Scrubbing scrubbed.title.episode.tsv succeeded.
+
+INFO:root:2018-06-28 14:14:02 -- Scrubbing scrubbed.title.basics.tsv
+
+INFO:root:2018-06-28 14:14:02 -- Scrubbing scrubbed.title.basics.tsv succeeded.
+
+INFO:root:2018-06-28 14:14:02 -- Scrubbing title.ratings.tsv.gz
+
+INFO:root:2018-06-28 14:14:02 -- Scrubbing title.ratings.tsv.gz succeeded.
+
+INFO:root:2018-06-28 14:14:02 -- Scrubbing title.episode.tsv
+
+INFO:root:2018-06-28 14:14:09 -- Scrubbing title.episode.tsv succeeded.
+
+INFO:root:2018-06-28 14:14:09 -- Scrubbing title.ratings.tsv
+
+INFO:root:2018-06-28 14:14:10 -- Scrubbing title.ratings.tsv succeeded.
+
+INFO:root:2018-06-28 14:14:10 -- Scrubbing title.basics.tsv.gz
+
+INFO:root:2018-06-28 14:14:10 -- Scrubbing title.basics.tsv.gz succeeded.
+
+INFO:root:2018-06-28 14:14:10 -- Scrubbing scrubbed.title.ratings.tsv
+
+INFO:root:2018-06-28 14:14:10 -- Scrubbing scrubbed.title.ratings.tsv succeeded.
+
+INFO:root:2018-06-28 14:14:10 -- Scrubbing transformed.episodes.tsv
+
+INFO:root:2018-06-28 14:14:10 -- Scrubbing transformed.episodes.tsv succeeded.
+
+INFO:root:2018-06-28 14:14:10 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-06-28 14:14:39 -- Scrubbing title.basics.tsv succeeded.
+
+INFO:root:2018-06-28 14:14:40 -- Transforming files.
+
+INFO:root:2018-06-28 14:15:01 -- Transforming files succeeded.
+
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:2018-06-29 12:53:27 -- Downloading title.basics.tsv.gz: 87.98 MB
+
+INFO:root:2018-06-29 12:53:39 -- File finished: title.basics.tsv.gz 87.98MB in 11.26s
+
+INFO:root:2018-06-29 12:53:39 -- Downloading title.episode.tsv.gz: 17.97 MB
+
+INFO:root:2018-06-29 12:53:42 -- File finished: title.episode.tsv.gz 17.97MB in 3.74s
+
+INFO:root:2018-06-29 12:53:42 -- Downloading title.ratings.tsv.gz: 3.99 MB
+
+INFO:root:2018-06-29 12:53:43 -- File finished: title.ratings.tsv.gz 3.99MB in 0.60s
+
+INFO:root:2018-06-29 12:53:43 -- Extracting title.episode.tsv.gz: 17.97MB
+
+INFO:root:2018-06-29 12:53:44 -- Finished extracting title.episode.tsv.gz
+
+INFO:root:2018-06-29 12:53:44 -- File 20180629 not a .gz file. Skipping...
+
+INFO:root:2018-06-29 12:53:44 -- Extracting title.ratings.tsv.gz: 3.99MB
+
+INFO:root:2018-06-29 12:53:44 -- Finished extracting title.ratings.tsv.gz
+
+INFO:root:2018-06-29 12:53:44 -- File 20180620 not a .gz file. Skipping...
+
+INFO:root:2018-06-29 12:53:44 -- Extracting title.basics.tsv.gz: 87.98MB
+
+INFO:root:2018-06-29 12:53:47 -- Finished extracting title.basics.tsv.gz
+
+INFO:root:2018-06-29 12:53:47 -- File 20180628 not a .gz file. Skipping...
+
+INFO:root:2018-06-29 12:53:47 -- Scrubbing title.episode.tsv.gz
+
+INFO:root:2018-06-29 12:53:47 -- Scrubbing title.episode.tsv.gz succeeded.
+
+INFO:root:2018-06-29 12:53:47 -- Scrubbing title.ratings.tsv.gz
+
+INFO:root:2018-06-29 12:53:47 -- Scrubbing title.ratings.tsv.gz succeeded.
+
+INFO:root:2018-06-29 12:53:47 -- Scrubbing title.episode.tsv
+
+INFO:root:2018-06-29 12:54:00 -- Scrubbing title.episode.tsv succeeded.
+
+INFO:root:2018-06-29 12:54:00 -- Scrubbing title.ratings.tsv
+
+INFO:root:2018-06-29 12:54:00 -- Scrubbing title.ratings.tsv succeeded.
+
+INFO:root:2018-06-29 12:54:00 -- Scrubbing title.basics.tsv.gz
+
+INFO:root:2018-06-29 12:54:00 -- Scrubbing title.basics.tsv.gz succeeded.
+
+INFO:root:2018-06-29 12:54:00 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-06-29 12:54:28 -- Scrubbing title.basics.tsv succeeded.
+
+INFO:root:2018-06-29 12:54:28 -- Transforming files.
+
+INFO:root:2018-06-29 12:54:50 -- Transforming files succeeded.
+
+INFO:root:2018-06-29 13:06:50 -- Downloading title.basics.tsv.gz: 87.98 MB
+
+INFO:root:2018-06-29 13:07:01 -- File finished: title.basics.tsv.gz 87.98MB in 12.20s
+
+INFO:root:2018-06-29 13:07:02 -- Downloading title.episode.tsv.gz: 17.97 MB
+
+INFO:root:2018-06-29 13:07:06 -- File finished: title.episode.tsv.gz 17.97MB in 4.12s
+
+INFO:root:2018-06-29 13:07:06 -- Downloading title.ratings.tsv.gz: 3.99 MB
+
+INFO:root:2018-06-29 13:07:08 -- File finished: title.ratings.tsv.gz 3.99MB in 1.91s
+
+INFO:root:2018-06-29 13:07:08 -- Extracting title.episode.tsv.gz: 17.97MB
+
+INFO:root:2018-06-29 13:07:09 -- Finished extracting title.episode.tsv.gz
+
+INFO:root:2018-06-29 13:07:09 -- File scrubbed.title.episode.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:09 -- File scrubbed.title.basics.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:09 -- File 20180629 not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:09 -- Extracting title.ratings.tsv.gz: 3.99MB
+
+INFO:root:2018-06-29 13:07:09 -- Finished extracting title.ratings.tsv.gz
+
+INFO:root:2018-06-29 13:07:09 -- File title.episode.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:09 -- File title.ratings.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:09 -- File 20180620 not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:09 -- Extracting title.basics.tsv.gz: 87.98MB
+
+INFO:root:2018-06-29 13:07:16 -- Finished extracting title.basics.tsv.gz
+
+INFO:root:2018-06-29 13:07:18 -- File scrubbed.title.ratings.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:18 -- File 20180628 not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:18 -- File transformed.episodes.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:18 -- File title.basics.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:07:18 -- Scrubbing title.episode.tsv.gz
+
+INFO:root:2018-06-29 13:07:18 -- Scrubbing title.episode.tsv.gz succeeded.
+
+INFO:root:2018-06-29 13:07:18 -- Scrubbing scrubbed.title.episode.tsv
+
+INFO:root:2018-06-29 13:07:18 -- Scrubbing scrubbed.title.episode.tsv succeeded.
+
+INFO:root:2018-06-29 13:07:18 -- Scrubbing scrubbed.title.basics.tsv
+
+INFO:root:2018-06-29 13:07:18 -- Scrubbing scrubbed.title.basics.tsv succeeded.
+
+INFO:root:2018-06-29 13:07:18 -- Scrubbing title.ratings.tsv.gz
+
+INFO:root:2018-06-29 13:07:18 -- Scrubbing title.ratings.tsv.gz succeeded.
+
+INFO:root:2018-06-29 13:07:18 -- Scrubbing title.episode.tsv
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing title.episode.tsv succeeded.
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing title.ratings.tsv
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing title.ratings.tsv succeeded.
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing title.basics.tsv.gz
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing title.basics.tsv.gz succeeded.
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing scrubbed.title.ratings.tsv
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing scrubbed.title.ratings.tsv succeeded.
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing transformed.episodes.tsv
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing transformed.episodes.tsv succeeded.
+
+INFO:root:2018-06-29 13:07:26 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-06-29 13:07:53 -- Scrubbing title.basics.tsv succeeded.
+
+INFO:root:2018-06-29 13:07:53 -- Transforming files.
+
+INFO:root:2018-06-29 13:08:11 -- Transforming files succeeded.
+
+INFO:root:2018-06-29 13:21:27 -- Downloading title.basics.tsv.gz: 87.98 MB
+
+INFO:root:2018-06-29 13:21:37 -- File finished: title.basics.tsv.gz 87.98MB in 11.12s
+
+INFO:root:2018-06-29 13:21:38 -- Downloading title.episode.tsv.gz: 17.97 MB
+
+INFO:root:2018-06-29 13:21:40 -- File finished: title.episode.tsv.gz 17.97MB in 2.22s
+
+INFO:root:2018-06-29 13:21:40 -- Downloading title.ratings.tsv.gz: 3.99 MB
+
+INFO:root:2018-06-29 13:21:41 -- File finished: title.ratings.tsv.gz 3.99MB in 0.58s
+
+INFO:root:2018-06-29 13:21:41 -- Extracting title.episode.tsv.gz: 17.97MB
+
+INFO:root:2018-06-29 13:21:41 -- Finished extracting title.episode.tsv.gz
+
+INFO:root:2018-06-29 13:21:41 -- File scrubbed.title.episode.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:41 -- File scrubbed.title.basics.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:41 -- File 20180629 not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:41 -- Extracting title.ratings.tsv.gz: 3.99MB
+
+INFO:root:2018-06-29 13:21:42 -- Finished extracting title.ratings.tsv.gz
+
+INFO:root:2018-06-29 13:21:42 -- File transformed.episode.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:42 -- File title.episode.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:42 -- File title.ratings.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:42 -- File 20180620 not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:42 -- Extracting title.basics.tsv.gz: 87.98MB
+
+INFO:root:2018-06-29 13:21:49 -- Finished extracting title.basics.tsv.gz
+
+INFO:root:2018-06-29 13:21:49 -- File scrubbed.title.ratings.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:49 -- File 20180628 not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:49 -- File transformed.episodes.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:49 -- File title.basics.tsv not a .gz file. Skipping...
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing title.episode.tsv.gz
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing title.episode.tsv.gz succeeded.
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing scrubbed.title.episode.tsv
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing scrubbed.title.episode.tsv succeeded.
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing scrubbed.title.basics.tsv
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing scrubbed.title.basics.tsv succeeded.
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing title.ratings.tsv.gz
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing title.ratings.tsv.gz succeeded.
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing transformed.episode.tsv
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing transformed.episode.tsv succeeded.
+
+INFO:root:2018-06-29 13:21:49 -- Scrubbing title.episode.tsv
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing title.episode.tsv succeeded.
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing title.ratings.tsv
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing title.ratings.tsv succeeded.
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing title.basics.tsv.gz
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing title.basics.tsv.gz succeeded.
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing scrubbed.title.ratings.tsv
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing scrubbed.title.ratings.tsv succeeded.
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing transformed.episodes.tsv
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing transformed.episodes.tsv succeeded.
+
+INFO:root:2018-06-29 13:21:56 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-06-29 13:22:23 -- Scrubbing title.basics.tsv succeeded.
+
+INFO:root:2018-06-29 13:22:23 -- Transforming files.
+
+INFO:root:2018-06-29 13:22:39 -- Transforming files succeeded.
+
+INFO:root:2018-06-29 19:30:04 -- Downloading title.basics.tsv.gz: 87.98 MB
+
+INFO:root:2018-06-29 19:30:16 -- File finished: title.basics.tsv.gz 87.98MB in 12.15s
+
+INFO:root:2018-06-29 19:30:17 -- Downloading title.episode.tsv.gz: 17.97 MB
+
+INFO:root:2018-06-29 19:30:19 -- File finished: title.episode.tsv.gz 17.97MB in 3.23s
+
+INFO:root:2018-06-29 19:30:19 -- Downloading title.ratings.tsv.gz: 3.99 MB
+
+INFO:root:2018-06-29 19:30:20 -- File finished: title.ratings.tsv.gz 3.99MB in 0.59s
+
+ERROR:root:2018-06-29 19:30:20 -- Extracting file ../../import/title.basics.tsv.gz failed.
+[Errno 2] No such file or directory: '../../import/../../import/title.basics.tsv.gz'
+
+ERROR:root:2018-06-29 19:30:20 -- Extracting file ../../import/title.episode.tsv.gz failed.
+[Errno 2] No such file or directory: '../../import/../../import/title.episode.tsv.gz'
+
+ERROR:root:2018-06-29 19:30:20 -- Extracting file ../../import/title.ratings.tsv.gz failed.
+[Errno 2] No such file or directory: '../../import/../../import/title.ratings.tsv.gz'
+
+INFO:root:2018-06-29 19:30:20 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-06-29 19:30:50 -- Scrubbing title.basics.tsv succeeded.
+
+INFO:root:2018-06-29 19:30:50 -- Scrubbing title.episode.tsv
+
+INFO:root:2018-06-29 19:30:57 -- Scrubbing title.episode.tsv succeeded.
+
+INFO:root:2018-06-29 19:30:57 -- Scrubbing title.ratings.tsv
+
+INFO:root:2018-06-29 19:30:57 -- Scrubbing title.ratings.tsv succeeded.
+
+INFO:root:2018-06-29 19:30:57 -- Transforming files.
+
+INFO:root:2018-06-29 19:31:14 -- Transforming files succeeded.
+
+INFO:root:2018-06-29 19:41:31 -- Scrubbing title.basics.tsv
+
+ERROR:root:2018-06-29 19:41:43 -- Scrubbing file title.basics.tsv failed.
+'str' object has no attribute 'loc'
+
+INFO:root:2018-06-29 19:43:39 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-06-29 19:44:08 -- Scrubbing title.basics.tsv succeeded.
+
+INFO:root:2018-06-29 19:44:34 -- Transforming files.
+
+INFO:root:2018-06-29 19:44:51 -- Transforming files succeeded.
+
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.vendored.requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.vendored.requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:2018-11-03 09:59:16 -- Downloading title.basics.tsv.gz: 92.40 MB
+
+INFO:root:2018-11-03 09:59:27 -- File finished: title.basics.tsv.gz 92.40MB in 11.78s
+
+INFO:root:2018-11-03 09:59:28 -- Downloading title.episode.tsv.gz: 19.11 MB
+
+INFO:root:2018-11-03 09:59:30 -- File finished: title.episode.tsv.gz 19.11MB in 3.42s
+
+INFO:root:2018-11-03 09:59:31 -- Downloading title.ratings.tsv.gz: 4.15 MB
+
+INFO:root:2018-11-03 09:59:32 -- File finished: title.ratings.tsv.gz 4.15MB in 1.28s
+
+ERROR:root:2018-11-03 09:59:32 -- Extracting file ../../import/title.basics.tsv.gz failed.
+[Errno 2] No such file or directory: '../../import/../../import/title.basics.tsv.gz'
+
+ERROR:root:2018-11-03 09:59:32 -- Extracting file ../../import/title.episode.tsv.gz failed.
+[Errno 2] No such file or directory: '../../import/../../import/title.episode.tsv.gz'
+
+ERROR:root:2018-11-03 09:59:32 -- Extracting file ../../import/title.ratings.tsv.gz failed.
+[Errno 2] No such file or directory: '../../import/../../import/title.ratings.tsv.gz'
+
+INFO:root:2018-11-03 09:59:32 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-11-03 10:00:03 -- Scrubbing title.basics.tsv succeeded.
+
+INFO:root:2018-11-03 10:00:03 -- Scrubbing title.episode.tsv
+
+INFO:root:2018-11-03 10:00:12 -- Scrubbing title.episode.tsv succeeded.
+
+INFO:root:2018-11-03 10:00:12 -- Scrubbing title.ratings.tsv
+
+INFO:root:2018-11-03 10:00:13 -- Scrubbing title.ratings.tsv succeeded.
+
+INFO:root:2018-11-03 10:00:13 -- Transforming files.
+
+INFO:root:2018-11-03 10:00:28 -- Transforming files succeeded.
+
+INFO:root:2018-11-03 10:03:11 -- Downloading title.basics.tsv.gz: 92.40 MB
+
+INFO:root:2018-11-03 10:03:22 -- File finished: title.basics.tsv.gz 92.40MB in 10.99s
+
+INFO:root:2018-11-03 10:03:22 -- Downloading title.episode.tsv.gz: 19.11 MB
+
+INFO:root:2018-11-03 10:03:24 -- File finished: title.episode.tsv.gz 19.11MB in 2.34s
+
+INFO:root:2018-11-03 10:03:24 -- Downloading title.ratings.tsv.gz: 4.15 MB
+
+INFO:root:2018-11-03 10:03:25 -- File finished: title.ratings.tsv.gz 4.15MB in 0.58s
+
+ERROR:root:2018-11-03 10:04:08 -- Extracting file ../../import/title.basics.tsv.gz failed.
+[Errno 2] No such file or directory: '../../import/../../import/title.basics.tsv.gz'
+
+ERROR:root:2018-11-03 10:04:08 -- Extracting file ../../import/title.episode.tsv.gz failed.
+[Errno 2] No such file or directory: '../../import/../../import/title.episode.tsv.gz'
+
+ERROR:root:2018-11-03 10:04:08 -- Extracting file ../../import/title.ratings.tsv.gz failed.
+[Errno 2] No such file or directory: '../../import/../../import/title.ratings.tsv.gz'
+
+INFO:root:2018-11-03 10:05:15 -- Extracting title.basics.tsv.gz: 92.40MB
+
+INFO:root:2018-11-03 10:05:18 -- Finished extracting title.basics.tsv.gz
+
+INFO:root:2018-11-03 10:05:18 -- Extracting title.episode.tsv.gz: 19.11MB
+
+INFO:root:2018-11-03 10:05:19 -- Finished extracting title.episode.tsv.gz
+
+INFO:root:2018-11-03 10:05:19 -- Extracting title.ratings.tsv.gz: 4.15MB
+
+INFO:root:2018-11-03 10:05:19 -- Finished extracting title.ratings.tsv.gz
+
+INFO:root:2018-11-03 10:06:43 -- Scrubbing title.basics.tsv
+
+INFO:root:2018-11-03 10:07:09 -- Scrubbing title.basics.tsv succeeded.
+
+INFO:root:2018-11-03 10:07:09 -- Scrubbing title.episode.tsv
+
+INFO:root:2018-11-03 10:07:16 -- Scrubbing title.episode.tsv succeeded.
+
+INFO:root:2018-11-03 10:07:16 -- Scrubbing title.ratings.tsv
+
+INFO:root:2018-11-03 10:07:16 -- Scrubbing title.ratings.tsv succeeded.
+
+INFO:root:2018-11-03 10:07:16 -- Transforming files.
+
+INFO:root:2018-11-03 10:07:33 -- Transforming files succeeded.
+
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.vendored.requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): imdb-dl-etl-bucket.s3.us-west-2.amazonaws.com
+INFO:botocore.vendored.requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): imdb-dl-etl-bucket.s3.us-west-2.amazonaws.com
+INFO:botocore.vendored.requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): imdb-dl-etl-bucket.s3.us-west-2.amazonaws.com
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:botocore.vendored.requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): imdb-dl-etl-bucket.s3.us-west-2.amazonaws.com
+INFO:botocore.vendored.requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): imdb-dl-etl-bucket.s3.us-west-2.amazonaws.com
+INFO:botocore.vendored.requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): imdb-dl-etl-bucket.s3.us-west-2.amazonaws.com
+INFO:root:2018-11-22 11:20:55 -- Downloading title.basics.tsv.gz: 93.06 MB
+
+INFO:root:2018-11-22 11:21:08 -- File finished: title.basics.tsv.gz 93.06MB in 13.34s
+
+INFO:root:2018-11-22 11:21:09 -- Downloading title.episode.tsv.gz: 19.30 MB
+
+INFO:root:2018-11-22 11:21:12 -- File finished: title.episode.tsv.gz 19.30MB in 3.90s
+
+INFO:root:2018-11-22 11:21:13 -- Downloading title.ratings.tsv.gz: 4.18 MB
+
+INFO:root:2018-11-22 11:21:14 -- File finished: title.ratings.tsv.gz 4.18MB in 1.55s
+
+INFO:root:2018-11-22 11:21:14 -- Extracting title.basics.tsv.gz: 93.06MB
+
+INFO:root:2018-11-22 11:21:17 -- Finished extracting title.basics.tsv.gz
+
+INFO:root:2018-11-22 11:21:17 -- Extracting title.episode.tsv.gz: 19.30MB
+
+INFO:root:2018-11-22 11:21:17 -- Finished extracting title.episode.tsv.gz
+
+INFO:root:2018-11-22 11:21:17 -- Extracting title.ratings.tsv.gz: 4.18MB
+
+INFO:root:2018-11-22 11:21:17 -- Finished extracting title.ratings.tsv.gz
+
+INFO:root:2018-11-22 11:23:05 -- Downloading title.basics.tsv.gz: 93.06 MB
+
+INFO:root:2018-11-22 11:23:16 -- File finished: title.basics.tsv.gz 93.06MB in 11.08s
+
+INFO:root:2018-11-22 11:23:16 -- Downloading title.episode.tsv.gz: 19.30 MB
+
+INFO:root:2018-11-22 11:23:18 -- File finished: title.episode.tsv.gz 19.30MB in 2.44s
+
+INFO:root:2018-11-22 11:23:18 -- Downloading title.ratings.tsv.gz: 4.18 MB
+
+INFO:root:2018-11-22 11:23:19 -- File finished: title.ratings.tsv.gz 4.18MB in 0.57s
+
+INFO:root:2018-11-22 11:23:19 -- Extracting title.basics.tsv.gz: 93.06MB
+
+INFO:root:2018-11-22 11:23:26 -- Finished extracting title.basics.tsv.gz
+
+INFO:root:2018-11-22 11:23:28 -- Extracting title.episode.tsv.gz: 19.30MB
+
+INFO:root:2018-11-22 11:23:28 -- Finished extracting title.episode.tsv.gz
+
+INFO:root:2018-11-22 11:23:28 -- Extracting title.ratings.tsv.gz: 4.18MB
+
+INFO:root:2018-11-22 11:23:29 -- Finished extracting title.ratings.tsv.gz
+
