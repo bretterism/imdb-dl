@@ -55,37 +55,3 @@ def downloader(files):
 				os.remove(loc)
 
 	return successCount == len(files)
-
-
-def extracter(filenames):
-	""" Extracts all .gz files """
-	for f in filenames:
-		try:
-			compressedFile = os.path.join('/tmp',f)
-			if compressedFile.endswith('.gz'):
-				destFile = os.path.join('/tmp', os.path.splitext(f)[0])
-				gzFileSizeMB = os.path.getsize(compressedFile) / 1024.0 / 1024.0
-
-				infoMsg = 'Extracting %s: %.2fMB' % (f, gzFileSizeMB)
-				logger.info(helpers.logMessage(infoMsg, True))
-
-				blockSize = 8192
-				with gzip.open(compressedFile, 'rb') as g:
-					with open(destFile, 'wb') as d:
-						while True:
-							buf = g.read(blockSize)							
-							if not buf:
-								break
-
-							d.write(buf)
-
-				infoMsg = 'Finished extracting {0}'.format(f)
-				logger.info(helpers.logMessage(infoMsg, True))
-			else:
-				infoMsg = 'File {0} not a .gz file. Skipping...'.format(f)
-				logger.info(helpers.logMessage(infoMsg, True))
-
-		except Exception as e:
-			errorMsg = "Extracting file {0} failed.\n".format(f)
-			errorMsg += str(e)
-			logger.error(helpers.logMessage(errorMsg, True))

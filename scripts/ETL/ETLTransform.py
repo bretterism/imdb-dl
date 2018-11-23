@@ -1,7 +1,6 @@
 import logging
 import os
 import pandas as pd
-import shutil
 import sys
 
 sys.path.append('../helpers')
@@ -10,19 +9,19 @@ import helpers
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-def scrubber(uncompressedFiles):
+def scrubber(compressedFiles):
 	delimiter = "\t"
 
-	for f in uncompressedFiles:
+	for f in compressedFiles:
 		try:
 			filepath = os.path.join('/tmp', f)
 
 			infoMsg = 'Scrubbing {0}'.format(f)
 			logger.info(helpers.logMessage(infoMsg, True))
-			if (f == 'title.basics.tsv'):
+			if (f == 'title.basics.tsv.gz'):
 				# Placing file in dataframe
 				dtypes = {'startYear': str, 'endYear': str, 'runtimeMinutes': str}
-				df = pd.read_csv(filepath,sep=delimiter,dtype=dtypes)
+				df = pd.read_csv(filepath,compression='gzip',sep=delimiter,dtype=dtypes)
 
 				# Deleting rows that aren't tvSeries or tvEpisodes
 				df = df.drop(df[~df.titleType.isin(['tvSeries','tvMiniSeries','tvEpisode'])].index)
@@ -31,29 +30,36 @@ def scrubber(uncompressedFiles):
 				df.loc[df['runtimeMinutes'] == '\\N', 'runtimeMinutes'] = '-1'
 
 				# Writing back to scrub file
-				scrubbedFilepath = os.path.join('/tmp', 'scrubbed.'+f)
+				scrubbedFilename = 'scrubbed.'+ os.path.splitext(f)[0]
+				scrubbedFilepath = os.path.join('/tmp', scrubbedFilename)
 				df.to_csv(scrubbedFilepath, sep="\t")
 				del df
 
-			if (f == 'title.episode.tsv'):
+			if (f == 'title.episode.tsv.gz'):
 				# Placing file in dataframe
-				filepath = os.path.join('/tmp', 'title.episode.tsv')
 				dtypes = {'seasonNumber': str, 'episodeNumber': str}
-				df = pd.read_csv(filepath,sep=delimiter,dtype=dtypes)
+				df = pd.read_csv(filepath,compression='gzip',sep=delimiter,dtype=dtypes)
 
 				# Deleting rows where episodeNumber and seasonNumber are not available
 				df = df[df.episodeNumber != r'\N']
 				df = df[df.seasonNumber != r'\N']
 
 				# Writing back to scrub file
-				scrubbedFilepath = os.path.join('/tmp', 'scrubbed.'+f)
+				scrubbedFilename = 'scrubbed.'+ os.path.splitext(f)[0]
+				scrubbedFilepath = os.path.join('/tmp', scrubbedFilename)
 				df.to_csv(scrubbedFilepath, sep="\t", index=False)
 				del df
 
-			if (f == 'title.ratings.tsv'):
+			if (f == 'title.ratings.tsv.gz'):
+				# Placing file in dataframe
+				dtypes = {'seasonNumber': str, 'episodeNumber': str}
+				df = pd.read_csv(filepath,compression='gzip',sep=delimiter,dtype=dtypes)
+
 				# Nothing to scrub. Just make a scrubbed file.
-				scrubbedFilepath = os.path.join('/tmp', 'scrubbed.'+f)
-				shutil.copyfile(filepath, scrubbedFilepath)
+				scrubbedFilename = 'scrubbed.'+ os.path.splitext(f)[0]
+				scrubbedFilepath = os.path.join('/tmp', scrubbedFilename)
+				df.to_csv(scrubbedFilepath, sep="\t", index=False)
+				del df
 
 			infoMsg = 'Scrubbing {0} succeeded.'.format(f)
 			logger.info(helpers.logMessage(infoMsg, True))

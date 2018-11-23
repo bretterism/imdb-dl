@@ -17,18 +17,11 @@ files = [
 ]
 
 compressedFiles = [f['name'] for f in files]
-uncompressedFiles = [f['name'].replace('.gz','') for f in files]
 scrubbedFiles = ['scrubbed.{0}'.format(f) for f in uncompressedFiles]
 transformFiles = ['transformed.episode.tsv']
 
-
-importPath = 'import'
 bucketName = 'imdb-dl-etl-bucket'
-# archivePath = helpers.createDateFolder(importPath)
 
 downloader(files)
-extracter(compressedFiles)
-scrubber(uncompressedFiles)
+scrubber(compressedFiles)
 transformer()
-
-# helpers.archiveFiles(importPath, archivePath)
