@@ -1,6 +1,6 @@
 import sys
 
-from ETLExtract import downloader, extracter
+from ETLExtract import downloader
 from ETLTransform import scrubber, transformer
 
 sys.path.append('../helpers')
@@ -17,11 +17,8 @@ files = [
 ]
 
 compressedFiles = [f['name'] for f in files]
-scrubbedFiles = ['scrubbed.{0}'.format(f) for f in uncompressedFiles]
-transformFiles = ['transformed.episode.tsv']
-
 bucketName = 'imdb-dl-etl-bucket'
 
 downloader(files)
-scrubber(compressedFiles)
-transformer()
+scrubbedDict = scrubber(compressedFiles)
+transformer(scrubbedDict)

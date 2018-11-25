@@ -11,6 +11,7 @@ logger.setLevel(logging.INFO)
 
 def scrubber(compressedFiles):
 	delimiter = "\t"
+	scrubbedDict = {}
 
 	for f in compressedFiles:
 		try:
@@ -29,11 +30,10 @@ def scrubber(compressedFiles):
 				# Replacing the \N values for runtimeMinutes
 				df.loc[df['runtimeMinutes'] == '\\N', 'runtimeMinutes'] = '-1'
 
-				# Writing back to scrub file
-				scrubbedFilename = 'scrubbed.'+ os.path.splitext(f)[0]
-				scrubbedFilepath = os.path.join('/tmp', scrubbedFilename)
-				df.to_csv(scrubbedFilepath, sep="\t")
+				# Adding dataframe to dictionary
+				scrubbedDict['title.basics.tsv'] = df
 				del df
+
 
 			if (f == 'title.episode.tsv.gz'):
 				# Placing file in dataframe
@@ -44,26 +44,24 @@ def scrubber(compressedFiles):
 				df = df[df.episodeNumber != r'\N']
 				df = df[df.seasonNumber != r'\N']
 
-				# Writing back to scrub file
-				scrubbedFilename = 'scrubbed.'+ os.path.splitext(f)[0]
-				scrubbedFilepath = os.path.join('/tmp', scrubbedFilename)
-				df.to_csv(scrubbedFilepath, sep="\t", index=False)
+				# Renaming columns
+				df = df.rename(columns={ 'tconst': 'episodeTconst', 'parentTconst': 'seriesTconst' })
+
+				# Adding dataframe to dictionary
+				scrubbedDict['title.episode.tsv'] = df
 				del df
 
 			if (f == 'title.ratings.tsv.gz'):
 				# Placing file in dataframe
-				dtypes = {'seasonNumber': str, 'episodeNumber': str}
+				dtypes = {'seasonNumber': str, 'episodeNumber': str, 'averageRating': str, 'numVotes': str}
 				df = pd.read_csv(filepath,compression='gzip',sep=delimiter,dtype=dtypes)
 
-				# Nothing to scrub. Just make a scrubbed file.
-				scrubbedFilename = 'scrubbed.'+ os.path.splitext(f)[0]
-				scrubbedFilepath = os.path.join('/tmp', scrubbedFilename)
-				df.to_csv(scrubbedFilepath, sep="\t", index=False)
+				# Adding dataframe to dictionary
+				scrubbedDict['title.ratings.tsv'] = df
 				del df
 
 			infoMsg = 'Scrubbing {0} succeeded.'.format(f)
 			logger.info(helpers.logMessage(infoMsg, True))
-
 
 		except Exception as e:
 			errorMsg = "Scrubbing file {0} failed.\n".format(f)
@@ -71,37 +69,24 @@ def scrubber(compressedFiles):
 
 			logger.error(helpers.logMessage(errorMsg, True))
 
+	return scrubbedDict
 
-def transformer():
+
+def transformer(scrubbedDict):
 	delimiter = "\t"
-	requiredFiles = ['scrubbed.title.basics.tsv', 'scrubbed.title.episode.tsv', 'scrubbed.title.ratings.tsv']
+	requiredFiles = ['title.basics.tsv', 'title.episode.tsv', 'title.ratings.tsv']
 
 	try:
-		for file in requiredFiles:
-			checkFile = os.path.join('/tmp', file)
-			if not os.path.exists(checkFile):
-				raise FileNotFoundError(file)
+		for r in requiredFiles:
+			if r not in scrubbedDict:
+				raise FileNotFoundError(r)
 
 		infoMsg = 'Transforming files.'
 		logger.info(helpers.logMessage(infoMsg, True))
 
-		# Pulling back data from title.basics.tsv
-		filepath = os.path.join('/tmp', 'scrubbed.title.basics.tsv')
-		dtypes = {'startYear': str, 'endYear': str, 'runtimeMinutes': str}
-		dfBasics = pd.read_csv(filepath,sep=delimiter,dtype=dtypes)
-
-		# Pulling back data from title.episode.tsv
-		filepath = os.path.join('/tmp', 'scrubbed.title.episode.tsv')
-		dtypes = {'seasonNumber': str, 'episodeNumber': str}
-		dfEpisode = pd.read_csv(filepath,sep=delimiter,dtype=dtypes)
-		dfEpisode = dfEpisode.rename(columns={ 'tconst': 'episodeTconst', 'parentTconst': 'seriesTconst' })
-
-		# Pulling back data from title.ratings.tsv
-		filepath = os.path.join('/tmp', 'scrubbed.title.ratings.tsv')
-		dtypes = {'averageRating': str, 'numVotes': str}
-		dfRatings = pd.read_csv(filepath,sep=delimiter,dtype=dtypes)
-
 		# Getting all the episode-specific information from title.basics.tsv (dfBasics object)
+		dfBasics = scrubbedDict.pop('title.basics.tsv', None)
+
 		dfTVEpisodes = dfBasics.loc[dfBasics['titleType'] == 'tvEpisode']
 		dfTVEpisodes = dfTVEpisodes.rename(columns={ 'tconst': 'episodeTconst', 'primaryTitle': 'episodeTitle', 'runtimeMinutes': 'episodeRuntimeMinutes' })
 		dfTVEpisodes = dfTVEpisodes.filter(items=['episodeTconst','episodeTitle', 'episodeRuntimeMinutes'])
@@ -113,6 +98,8 @@ def transformer():
 		del dfBasics
 
 		# Combining the episodes and ratings
+		dfEpisode = scrubbedDict.pop('title.episode.tsv', None)
+		dfRatings = scrubbedDict.pop('title.ratings.tsv', None)
 		dfMerged = pd.merge(dfEpisode, dfRatings, left_on='episodeTconst', right_on='tconst')
 		del dfEpisode
 		del dfRatings
@@ -133,5 +120,5 @@ def transformer():
 
 
 	except FileNotFoundError as f:
-		errorMsg = 'File {0} not found in {1}'.format(f, '/tmp')
+		errorMsg = 'File {0} not found in Dictionary object'.format(f)
 		logger.error(helpers.logMessage(errorMsg, True))
