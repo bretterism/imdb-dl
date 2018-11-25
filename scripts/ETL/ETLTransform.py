@@ -1,7 +1,9 @@
+import boto3
 import logging
 import os
 import pandas as pd
 import sys
+from io import StringIO
 
 sys.path.append('../helpers')
 import helpers
@@ -72,7 +74,7 @@ def scrubber(compressedFiles):
 	return scrubbedDict
 
 
-def transformer(scrubbedDict):
+def transformer(scrubbedDict, bucketName):
 	delimiter = "\t"
 	requiredFiles = ['title.basics.tsv', 'title.episode.tsv', 'title.ratings.tsv']
 
@@ -111,13 +113,20 @@ def transformer(scrubbedDict):
 		dfMerged = pd.merge(dfMerged, dfTVSeries, on='seriesTconst')
 		dfMerged = pd.merge(dfMerged, dfTVEpisodes, on='episodeTconst')
 
-		# Export to file
-		transformFilepath = os.path.join('/tmp', 'transformed.episode.tsv')
-		dfMerged.to_csv(transformFilepath, sep='\t', index=False)
-
 		infoMsg = 'Transforming files succeeded.'
 		logger.info(helpers.logMessage(infoMsg, True))
 
+		infoMsg = 'Uploading to s3 bucket {0}.'.format(bucketName)
+		logger.info(helpers.logMessage(infoMsg, True))
+
+		# Export transformed dataframe to S3 bucket
+		s3 = boto3.resource('s3')
+		csvBuffer = StringIO()
+		dfMerged.to_csv(csvBuffer, index=False)
+		s3.Object(bucketName, 'transformed.episode.tsv').put(Body=csvBuffer.getvalue())
+
+		infoMsg = 'Finished uploading to s3 bucket {0}.'.format(bucketName)
+		logger.info(helpers.logMessage(infoMsg, True))
 
 	except FileNotFoundError as f:
 		errorMsg = 'File {0} not found in Dictionary object'.format(f)

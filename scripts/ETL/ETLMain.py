@@ -21,4 +21,4 @@ bucketName = 'imdb-dl-etl-bucket'
 
 downloader(files)
 scrubbedDict = scrubber(compressedFiles)
-transformer(scrubbedDict)
+transformer(scrubbedDict, bucketName)
