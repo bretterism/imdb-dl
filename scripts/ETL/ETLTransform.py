@@ -5,19 +5,19 @@ import pandas as pd
 import sys
 from io import StringIO
 
-sys.path.append('../helpers')
+sys.path.append('./helpers')
 import helpers
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-def scrubber(compressedFiles):
+def scrubber(compressedFiles, downloadFolder):
 	delimiter = "\t"
 	scrubbedDict = {}
 
 	for f in compressedFiles:
 		try:
-			filepath = os.path.join('/tmp', f)
+			filepath = os.path.join(downloadFolder, f)
 
 			infoMsg = 'Scrubbing {0}'.format(f)
 			logger.info(helpers.logMessage(infoMsg, True))
@@ -74,7 +74,7 @@ def scrubber(compressedFiles):
 	return scrubbedDict
 
 
-def transformer(scrubbedDict, bucketName):
+def transformer(scrubbedDict, importFolder):
 	delimiter = "\t"
 	requiredFiles = ['title.basics.tsv', 'title.episode.tsv', 'title.ratings.tsv']
 
@@ -116,16 +116,11 @@ def transformer(scrubbedDict, bucketName):
 		infoMsg = 'Transforming files succeeded.'
 		logger.info(helpers.logMessage(infoMsg, True))
 
-		infoMsg = 'Uploading to s3 bucket {0}.'.format(bucketName)
-		logger.info(helpers.logMessage(infoMsg, True))
+		# Writing transformed dataframe to file
+		transformFilepath = os.path.join(importFolder, 'transformed.episode.tsv')
+		dfMerged.to_csv(transformFilepath, sep='\t', index=False)
 
-		# Export transformed dataframe to S3 bucket
-		s3 = boto3.resource('s3')
-		csvBuffer = StringIO()
-		dfMerged.to_csv(csvBuffer, index=False)
-		s3.Object(bucketName, 'transformed.episode.tsv').put(Body=csvBuffer.getvalue())
-
-		infoMsg = 'Finished uploading to s3 bucket {0}.'.format(bucketName)
+		infoMsg = 'Transforming files succeeded.'
 		logger.info(helpers.logMessage(infoMsg, True))
 
 	except FileNotFoundError as f:

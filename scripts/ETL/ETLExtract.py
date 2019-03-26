@@ -5,17 +5,17 @@ import sys
 import time
 import urllib.request
 
-sys.path.append('../helpers')
+sys.path.append('./helpers')
 import helpers
 
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-def downloader(files):
+def downloader(files, downloadFolder):
 	successCount = 0
 	for f in files:
-		loc = os.path.join('/tmp', f['name'])
+		loc = os.path.join(downloadFolder, f['name'])
 		try:
 			timerStart = time.time()
 			res = urllib.request.urlopen(f['url'])

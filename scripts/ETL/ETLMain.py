@@ -1,10 +1,11 @@
 import sys
 
-from ETLExtract import downloader
-from ETLTransform import scrubber, transformer
+import ETLExtract
+import ETLTransform
 
-sys.path.append('../helpers')
+sys.path.append('./helpers')
 import helpers
+
 
 files = [
 	# {'name':'name.basics.tsv.gz', 'url':'https://datasets.imdbws.com/name.basics.tsv.gz'},
@@ -17,8 +18,10 @@ files = [
 ]
 
 compressedFiles = [f['name'] for f in files]
-bucketName = 'imdb-dl-etl-bucket'
+transformFiles = ['transformed.episode.tsv']
 
-downloader(files)
-scrubbedDict = scrubber(compressedFiles)
-transformer(scrubbedDict, bucketName)
+importFolder = helpers.createDateFolder('../../import')
+
+ETLExtract.downloader(files, importFolder)
+scrubbedDict = ETLTransform.scrubber(compressedFiles, importFolder)
+ETLTransform.transformer(scrubbedDict, importFolder)
