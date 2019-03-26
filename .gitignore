@@ -1,5 +1,8 @@
 logs/*
 import/*
 package/
+*.zip
+*.tsv
+*.tsv.gz
 *.log
 *.pyc
