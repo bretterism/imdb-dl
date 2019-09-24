@@ -8,6 +8,7 @@ Search for a TV show, and see how every episode is rated on IMDb.
 Data files are downloaded from IMDb [here](https://datasets.imdbws.com/). The ETL scripts prep the data and boils them down to a single transformed file. This file is loaded into the [ELK Stack](https://www.elastic.co/what-is/elk-stack) installation.
 
 ### What does it look like?
+This is a screenshot of every episode of Friends, and their IMDb ratings from 0-10.
 ![alt text](https://github.com/bretterism/imdb-dl/blob/master/img/Kibana.png?raw=true "Kibana Screenshot")
 
 
